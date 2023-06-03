@@ -57,6 +57,26 @@ the highest R2 scores at the top, with Grid Search CV having the highest score, 
 
 By incorporating these visualizations, the project provides a comprehensive overview of the R2 scores of different models and facilitates a better understanding of their performance in predicting concrete strength.
 
+# Explanation of each of the columns
+
+Cement: This column represents the amount of cement (in kg/m3) used in the concrete mixture. Cement is a crucial component in concrete and plays a significant role in determining the strength and durability of the final product.
+
+Water: The water column indicates the amount of water (in kg/m3) used in the concrete mix. Water is necessary for the hydration process of cement and helps in binding the other ingredients together.
+
+Fine Aggregate: This column represents the quantity of fine aggregate (in kg/m3) present in the concrete mixture. Fine aggregate typically consists of sand, and it helps fill the gaps between cement particles, providing strength and stability to the concrete.
+
+Slag: The slag column indicates the amount of slag (in kg/m3) used in the concrete mix. Slag is a byproduct of steel production and is often used as a supplementary cementitious material. It enhances the strength, durability, and workability of concrete.
+
+Superplasticizer: This column represents the amount of superplasticizer (in kg/m3) added to the concrete mix. Superplasticizers are chemical additives that improve the flow and workability of concrete without compromising its strength.
+
+csMPa: The csMPa column represents the compressive strength of the concrete (in MPa). Compressive strength is a crucial parameter that measures the ability of concrete to withstand loads or pressure.
+
+Fly Ash: The fly ash column indicates the quantity of fly ash (in kg/m3) used in the concrete mix. Fly ash is a byproduct of coal combustion and is commonly used as a supplementary cementitious material. It improves the workability and durability of concrete.
+
+Coarse Aggregate: This column represents the amount of coarse aggregate (in kg/m3) in the concrete mixture. Coarse aggregate typically consists of crushed stone or gravel and provides strength and stability to the concrete.
+
+Age: The age column indicates the age of the concrete specimen (in days) at the time of testing for compressive strength. Age is an important factor as it influences the development of concrete's strength over time.
+
 # Challenges
 The project encountered several challenges during its execution, including:
 
