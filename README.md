@@ -21,6 +21,42 @@ From the analysis and visualizations conducted during the project, the following
 
 3. Polynomial Regression: Models with polynomial degrees of 2 and 3 demonstrated higher accuracy compared to linear regression (degree 1). Polynomial Regression models captured more complex relationships between the predictors and the target variable, leading to improved accuracy.
 
+# Visualization
+
+The Concrete Strength Prediction project includes several visualizations to analyze the performance of different models in predicting concrete strength:
+
+1. Correlation Heatmap
+A correlation heatmap can be generated to visualize the correlation between different columns in the dataset. The heatmap will focus on the following columns: csMPa, cement, superplasticizer, age, slag, flyash, coarseaggregate, fineaggregate, and water. This visualization will provide a visual representation of the correlation coefficients, allowing for easy identification of strong positive or negative correlations between variables.
+
+![image](https://github.com/ipratham7/Concrete-Strength-Prediction/assets/64377030/876d0d36-4c7c-4048-859b-eba8f6ed7925)
+
+
+2. Line Density Plot of Numerical Columns
+A line density plot can be created to visualize the distribution of data for each numerical column in the dataset. This plot will include the following columns: cement, water, fineaggregate, slag, superplasticizer, csMPa, flyash, coarseaggregate, and age. Each column will have its own line on the plot, representing the density distribution of its values. This visualization will provide insights into the range and distribution of each variable, helping to identify any outliers or patterns within the data.
+
+![image](https://github.com/ipratham7/Concrete-Strength-Prediction/assets/64377030/a5460b97-262b-4aa9-8541-e9cc78eef4c7)
+
+
+3. Bar Chart Comparing R2 Scores of Different Models
+This visualization presents a bar chart that showcases the R2 scores of Linear Regression, Decision Tree, Random Forest, and SVR models. Each model is represented by a bar, and the height of the bar corresponds to its respective R2 score. From the chart, it can be observed that Random Forest has the highest R2 score, followed by Decision Tree, Linear Regression, and SVR.
+
+![image](https://github.com/ipratham7/Concrete-Strength-Prediction/assets/64377030/3dc7e5d8-7e40-45e8-b61a-c9f5a152d07f)
+
+
+4. Bar Chart Comparing R2 Scores between Random Forest and Random Forest with Grid Search CV
+This visualization focuses on comparing the R2 scores between the Random Forest model and the Random Forest model with Grid Search CV (GSV). The bar chart displays only these two models, showcasing their R2 scores. It becomes apparent that the difference in R2 scores between the two models is minimal, emphasizing the effectiveness of Random Forest even without Grid Search CV.
+
+![image](https://github.com/ipratham7/Concrete-Strength-Prediction/assets/64377030/ff87efa3-a1e4-426f-8db1-409d1d4d16ec)
+
+
+5. Bar Chart of All Model R2 Scores
+This visualization presents a comprehensive bar chart that displays the R2 scores of all the models in one visualization. Each model is represented by a bar, and the height of the bar represents its respective R2 score. The chart enables a quick comparison of the performance of all the models in predicting concrete strength.
+the highest R2 scores at the top, with Grid Search CV having the highest score, followed by Random Forest, Decision Tree, Polynomial Regression (degree 2 and 3), Linear Regression, and SVR.
+
+![image](https://github.com/ipratham7/Concrete-Strength-Prediction/assets/64377030/0da0211e-c38c-49f8-8d82-0961b75c428a)
+
+By incorporating these visualizations, the project provides a comprehensive overview of the R2 scores of different models and facilitates a better understanding of their performance in predicting concrete strength.
+
 # Challenges
 The project encountered several challenges during its execution, including:
 
